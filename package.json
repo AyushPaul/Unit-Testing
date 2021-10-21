@@ -1,0 +1,24 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "This is a simple Taxi Fare Calculating Program in which the Distance Travelled and Time Taken to Cover the Distance is taken input from the user and the corresponding fare is outputted.",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^4.1.0",
+    "nyc": "^11.9.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "cover": "nyc --reporter=lcovonly --reporter=html mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  }
+}
